@@ -1,28 +1,36 @@
-```html
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Ashley Van Der Merwe</title>
+    <title>Ashley's Portfolio</title>
 
     <link rel="stylesheet" href="style.css" />
 
-    <!-- Font Awesome icons -->
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <!-- Header -->
+    <!-- ================= HEADER ================= -->
 
-    <header class="header">
-      <a href="#home" class="logo">Ashley Van Der Merwe</a>
+    <header>
+      <a href="#" class="logo">Ashley Van Der Merwe</a>
 
-      <nav class="navbar">
+      <nav>
         <a href="#home" class="active">Home</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
@@ -32,961 +40,600 @@
       </nav>
     </header>
 
-    <!-- Home Section -->
+    <!-- ================= HOME ================= -->
 
-    <section class="home-section" id="home">
-      <div class="profile-image">
-        <img src="Ashley.jpg" alt="A photo of Ashley" />
+    <section id="home" class="home">
+      <div class="home-img">
+        <img src="Ashley.jpg" alt="Ashley" />
       </div>
 
       <div class="home-content">
-        <h1 class="home-title">Hi, it's <span>Ashley</span></h1>
+        <h1>Hi, it's <span>Ashley</span></h1>
 
-        <h3 class="home-role">I'm a <span>Tech Enthusiast</span></h3>
-
-        <p class="home-description">
-          I enjoy exploring different areas of technology, with a particular
-          interest in data analysis, cloud computing, IoT and programming. I am
-          always looking for opportunities to learn new skills, challenge myself
-          and grow beyond one area of technology.
-        </p>
-      </div>
-    </section>
-
-    <!-- Education Section -->
-
-    <section class="education-section" id="education">
-      <div class="education-image">
-        <img src="pic4.jpeg" alt="A picture representing education" />
-      </div>
-
-      <div class="education-content">
-        <h2 class="education-title">
-          From Student to Future Tech Professional
-        </h2>
+        <h3 class="typing-text">I'm an <span>IoT student</span></h3>
 
         <p>
-          I began my studies at Eastwood Secondary School, where I completed my
-          National Senior Certificate in 2022 with a focus on Science and
-          Mathematics.
-        </p>
-
-        <p>
-          My studies in Information and Communications Technology have allowed
-          me to explore different areas of technology, from programming and web
-          development to IoT, data and cloud computing.
-        </p>
-
-        <p>
-          Through my studies and independent learning, I have developed a
-          growing interest in understanding how technology can be used to solve
-          real-world problems. My learning journey has also taught me the
-          importance of continuously improving myself and being open to
-          exploring new areas of technology.
-        </p>
-      </div>
-    </section>
-
-    <!-- Skills Section -->
-
-    <section class="skills-section" id="skills">
-      <div class="skills-image">
-        <img src="pic3.jpeg" alt="A picture representing my skills" />
-      </div>
-
-      <div class="skills-content">
-        <h2 class="skills-title">From Learning to Building</h2>
-
-        <p class="skills-introduction">
-          I am building practical skills across different areas of technology
-          while continuing to explore the fields that interest me most. I enjoy
-          learning new technologies and developing skills that can be applied to
+          I am a technology enthusiast with an interest in data analysis, cloud
+          computing, Internet of Things (IoT), and programming. I enjoy learning
+          new technologies and using them to create practical solutions to
           real-world problems.
         </p>
 
-        <!-- Programming -->
-
-        <div class="skill-category">
-          <h4>Programming</h4>
-
-          <div class="skill-list">
-            <span>Python</span>
-            <span>C++</span>
-            <span>C#</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>SQL</span>
-          </div>
-        </div>
-
-        <!-- IoT and Electronics -->
-
-        <div class="skill-category">
-          <h4>IoT and Electronics</h4>
-
-          <div class="skill-list">
-            <span>Arduino</span>
-            <span>Sensors</span>
-            <span>Microcontrollers</span>
-            <span>Analog and Digital Circuits</span>
-          </div>
-        </div>
-
-        <!-- Data and Analysis -->
-
-        <div class="skill-category">
-          <h4>Data and Analysis</h4>
-
-          <div class="skill-list">
-            <span>Data Analysis</span>
-            <span>Data Visualisation</span>
-            <span>Machine Learning</span>
-          </div>
-        </div>
-
-        <!-- Soft Skills -->
-
-        <div class="skill-category">
-          <h4>Soft Skills</h4>
-
-          <div class="skill-list">
-            <span>Problem Solving</span>
-            <span>Adaptability</span>
-            <span>Teamwork</span>
-            <span>Logical Thinking</span>
-            <span>Time Management</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Certificates Section -->
-
-    <section class="certificates-section" id="certificates">
-      <h2 class="certificates-title">Certificates</h2>
-
-      <p class="certificates-introduction">
-        A collection of courses and certifications that have contributed to my
-        learning and development.
-      </p>
-
-      <div class="certificate-container">
-
-        <!-- AI Fundamentals -->
-
-        <div class="certificate-card">
-          <div class="certificate-preview">
-            <embed
-              src="ai_fundamentals.pdf"
-              alt="IBM AI Fundamentals Certificate"
-            />
-          </div>
-
-          <div class="certificate-summary">
-            <h3>IBM AI Fundamentals</h3>
-
-            <p>Completed: June 25, 2027</p>
-          </div>
-        </div>
-
-        <!-- Python Essentials 1 -->
-
-        <div class="certificate-card">
-          <div class="certificate-preview">
-            <embed
-              src="python_essentials.pdf"
-              alt="Python Essentials 1 Certificate"
-            />
-          </div>
-
-          <div class="certificate-summary">
-            <h3>Python Essentials 1</h3>
-
-            <p>Completed: July 27, 2026</p>
-          </div>
-        </div>
-
-        <!-- Cloud Computing -->
-
-        <div class="certificate-card">
-          <div class="certificate-preview">
-            <embed
-              src="cloud_computing.pdf"
-              alt="IBM Cloud Computing Fundamentals Certificate"
-            />
-          </div>
-
-          <div class="certificate-summary">
-            <h3>IBM Cloud Computing Fundamentals</h3>
-
-            <p>Completed: August 10, 2026</p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Certificate Details Section -->
-
-    <section class="certificate-details-section">
-      <div class="certificate-details-container">
-
-        <!-- AI Fundamentals -->
-
-        <div class="certificate-detail">
-          <div class="certificate-information">
-            <h2>IBM AI Fundamentals</h2>
-
-            <h3>What I Learned</h3>
-
-            <p>
-              This course gave me the opportunity to explore artificial
-              intelligence in greater depth. Although I had already been
-              introduced to AI through my coursework, the course exposed me to
-              concepts and ideas that were new to me.
-            </p>
-
-            <p>
-              One of the highlights was the simulation activity, which made the
-              learning experience more interactive rather than being based
-              entirely on theory.
-            </p>
-
-            <p>
-              I was also introduced to IBM's work on AI systems such as Project
-              Debater. Learning about the development of a system designed to
-              debate and reason was fascinating to me.
-            </p>
-
-            <p>
-              The development of Project Debater also reminded me that
-              meaningful progress takes time. Its journey included setbacks and
-              losses, which reinforced the importance of perseverance and
-              continuing to improve.
-            </p>
-          </div>
-
-          <div class="certificate-display">
-            <img
-              src="ai_fundamentals.jpeg"
-              alt="IBM AI Fundamentals Certificate"
-            />
-          </div>
-        </div>
-
-        <!-- Python Essentials 1 -->
-
-        <div class="certificate-detail">
-          <div class="certificate-information">
-            <h2>Python Essentials 1</h2>
-
-            <h3>What I Learned</h3>
-
-            <p>
-              My experience with Python Essentials 1 was great. I had already
-              learned Python through one of my university modules and through
-              additional videos that helped me build my understanding of the
-              language.
-            </p>
-
-            <p>
-              The course introduced me to aspects of Python that went beyond
-              simply writing code. I found it interesting to learn about the
-              history of Python, including how the language got its name.
-            </p>
-
-            <p>
-              The later stages became more challenging, but I was able to work
-              through them and strengthen my understanding of Python.
-            </p>
-          </div>
-
-          <div class="certificate-display">
-            <img
-              src="python_essentials1.jpeg"
-              alt="Python Essentials 1 Certificate"
-            />
-          </div>
-        </div>
-
-        <!-- Cloud Computing -->
-
-        <div class="certificate-detail">
-          <div class="certificate-information">
-            <h2>IBM Cloud Computing Fundamentals</h2>
-
-            <h3>What I Learned</h3>
-
-            <p>
-              This course was very insightful because it allowed me to explore
-              cloud computing beyond what I had learned in my university module.
-            </p>
-
-            <p>
-              I learned about containers, cloud providers and different
-              approaches to moving business data from private infrastructure to
-              the cloud.
-            </p>
-
-            <p>
-              The simulation was particularly interesting to me because it
-              helped me understand what cloud computing is actually used for in
-              practice. I was able to see examples involving deploying web
-              applications and working with containers.
-            </p>
-
-            <p>
-              I also learned that cloud providers may offer similar products
-              while still having services that differentiate them. IBM's focus
-              on hybrid cloud was one example that stood out to me.
-            </p>
-          </div>
-
-          <div class="certificate-display">
-            <img
-              src="cloud_computing.jpeg"
-              alt="IBM Cloud Computing Fundamentals Certificate"
-            />
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-
-    <section class="projects-section" id="projects">
-      <div class="projects-content">
-
-        <h2 class="projects-title">Projects</h2>
-
-        <p class="projects-introduction">
-          Here I showcase projects that have allowed me to apply what I have
-          learned through university, independent learning and practical
-          exploration.
-        </p>
-
-        <!-- Programming -->
-
-        <div class="project-category">
-          <h3>Programming</h3>
-
-          <!-- FNB App Academy -->
-
-          <div class="project-item">
-            <div class="project-summary">
-
-              <h4>FNB App Academy – Python Projects</h4>
-
-              <p>
-                A collection of Python projects developed as part of the
-                practical activities in the FNB App Academy. These projects
-                allowed me to apply Python concepts by building functional
-                programs rather than only working through theory.
-              </p>
-
-              <p class="project-technologies">
-                Python | Functions | Lists | Dictionaries | Loops | Conditional
-                Statements | Data Processing
-              </p>
-
-              <a
-                href="https://github.com/Ashley176-lab/FNB-coding-programme"
-                target="_blank"
-                class="project-link"
-              >
-                View Repository
-              </a>
-
-            </div>
-
-            <div class="project-details">
-
-              <h4>Projects Included</h4>
-
-              <!-- Contact Book -->
-
-              <div class="project-subitem">
-                <h5>Contact Book</h5>
-
-                <p>
-                  A Python contact management program that allows users to add,
-                  search, delete and view contacts. Contact information is
-                  stored using lists and dictionaries, while functions and
-                  conditional logic are used to manage the different actions.
-                </p>
-              </div>
-
-              <!-- Student Grade Report -->
-
-              <div class="project-subitem">
-                <h5>Student Grade Report</h5>
-
-                <p>
-                  A Python program that processes student marks and generates a
-                  grade report. The program calculates each student's average,
-                  assigns a grade, determines whether the student passed or
-                  failed, and calculates class statistics.
-                </p>
-              </div>
-
-              <!-- Going Beyond Requirements -->
-
-              <div class="project-subitem">
-                <h5>Going Beyond the Requirements</h5>
-
-                <p>
-                  I extended the original grade-report activity by adding
-                  additional class-level statistics, including the class
-                  average, highest average and lowest average. I also
-                  experimented with calculating subject-specific statistics.
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Python Quiz -->
-
-          <div class="project-item">
-            <div class="project-summary">
-
-              <h4>Python Quiz – Fun IT Quiz</h4>
-
-              <p>
-                A command-line quiz application developed in Python that allows
-                users to test their knowledge of Python, general IT concepts and
-                networking. The program keeps track of the user's score and
-                allows them to continue with another quiz after completing one.
-              </p>
-
-              <p class="project-technologies">
-                Python | Functions | User Input | Conditional Statements |
-                String Methods | Score Tracking
-              </p>
-
-              <a
-                href="https://github.com/Ashley176-lab/Python-Quiz/tree/main"
-                target="_blank"
-                class="project-link"
-              >
-                View Repository
-              </a>
-
-            </div>
-
-            <div class="project-details">
-
-              <h4>Quiz Categories</h4>
-
-              <!-- Python Quiz -->
-
-              <div class="project-subitem">
-                <h5>Python Quiz</h5>
-
-                <p>
-                  A five-question quiz covering basic Python concepts, including
-                  functions, comments, Boolean data types, output using the
-                  print function and the exponentiation operator.
-                </p>
-              </div>
-
-              <!-- IT Quiz -->
-
-              <div class="project-subitem">
-                <h5>IT Quiz</h5>
-
-                <p>
-                  A five-question quiz covering fundamental IT concepts such as
-                  the CPU, RAM, routers and software.
-                </p>
-              </div>
-
-              <!-- Networking Quiz -->
-
-              <div class="project-subitem">
-                <h5>Networking Quiz</h5>
-
-                <p>
-                  A three-question quiz covering basic networking concepts,
-                  including IP, HTTP and firewalls.
-                </p>
-              </div>
-
-              <!-- Interactive Quiz Flow -->
-
-              <div class="project-subitem">
-                <h5>Interactive Quiz Flow</h5>
-
-                <p>
-                  After completing a quiz, the program asks whether the user
-                  would like to continue and allows them to select another quiz
-                  category. This creates a simple interactive learning
-                  experience rather than ending after a single quiz.
-                </p>
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-        <!-- Data Analysis and Machine Learning -->
-
-        <div class="project-category">
-
-          <h3>Data Analysis and Machine Learning</h3>
-
-          <!-- Appliances Energy Prediction -->
-
-          <div class="project-item">
-
-            <div class="project-summary">
-
-              <h4>Appliances Energy Prediction</h4>
-
-              <p>
-                A data analysis and machine learning project using the
-                Appliances Energy Prediction dataset. The project focused on
-                analysing energy consumption patterns and developing machine
-                learning models to predict appliance and lighting energy usage.
-              </p>
-
-              <p class="project-technologies">
-                Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn |
-                Data Analysis | Machine Learning
-              </p>
-
-              <a
-                href="https://github.com/Ashley176-lab/Appliance-and-Light-Consumption"
-                target="_blank"
-                class="project-link"
-              >
-                View Repository
-              </a>
-
-            </div>
-
-            <div class="project-details">
-
-              <h4>Project Overview</h4>
-
-              <!-- Data Analysis -->
-
-              <div class="project-subitem">
-
-                <h5>Data Analysis</h5>
-
-                <p>
-                  The dataset was explored and analysed to understand patterns
-                  in appliance and lighting energy consumption. Data
-                  preprocessing and visualisation were used to identify
-                  relationships between the variables.
-                </p>
-
-              </div>
-
-              <!-- Machine Learning Models -->
-
-              <div class="project-subitem">
-
-                <h5>Machine Learning Models</h5>
-
-                <p>
-                  Different regression models were tested, including Linear
-                  Regression, Decision Tree Regression and Random Forest
-                  Regression. The models were compared to determine which
-                  performed best on the dataset.
-                </p>
-
-              </div>
-
-              <!-- Final Model -->
-
-              <div class="project-subitem">
-
-                <h5>Final Model</h5>
-
-                <p>
-                  Random Forest Regression produced the strongest overall
-                  results among the models tested. The final model achieved an
-                  R² score of 0.6072, with an RMSE of 4.9613 and an MAE of
-                  2.8571.
-                </p>
-
-              </div>
-
-              <!-- Learning Outcome -->
-
-              <div class="project-subitem">
-
-                <h5>What I Learned</h5>
-
-                <p>
-                  This project strengthened my understanding of data
-                  preprocessing, exploratory data analysis, data visualisation,
-                  regression models and model evaluation. It also gave me
-                  practical experience applying machine learning to a
-                  real-world energy-related dataset.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- Titanic Survival Prediction -->
-
-          <div class="project-item">
-
-            <div class="project-summary">
-
-              <h4>Titanic Survival Prediction</h4>
-
-              <p>
-                A machine learning project using the Titanic dataset to predict
-                whether a passenger survived based on characteristics such as
-                passenger class, sex, age, number of siblings or spouses,
-                parents or children, fare and port of embarkation.
-              </p>
-
-              <p class="project-technologies">
-                Python | Pandas | Scikit-learn | Matplotlib | Seaborn |
-                Data Preprocessing | Logistic Regression | Machine Learning
-              </p>
-
-              <a
-                href="https://github.com/Ashley176-lab/Titanic-Data-Analysis"
-                target="_blank"
-                class="project-link"
-              >
-                View Repository
-              </a>
-
-            </div>
-
-            <div class="project-details">
-
-              <h4>Project Overview</h4>
-
-              <!-- Data Preprocessing -->
-
-              <div class="project-subitem">
-
-                <h5>Data Preprocessing</h5>
-
-                <p>
-                  The dataset originally contained 891 rows and 12 columns.
-                  Unnecessary columns such as PassengerId, Name, Ticket and
-                  Cabin were removed, followed by handling missing values. This
-                  resulted in a dataset of 712 rows and 8 columns for modelling.
-                </p>
-
-              </div>
-
-              <!-- Feature Selection -->
-
-              <div class="project-subitem">
-
-                <h5>Feature Selection</h5>
-
-                <p>
-                  The model used Sex, Age, SibSp, Parch, Fare and Embarked as
-                  input features, with Survived used as the target variable.
-                </p>
-
-              </div>
-
-              <!-- Machine Learning Model -->
-
-              <div class="project-subitem">
-
-                <h5>Logistic Regression</h5>
-
-                <p>
-                  A Logistic Regression model was developed to predict
-                  passenger survival. Categorical variables were processed
-                  using OneHotEncoder, while numerical variables such as Age
-                  and Fare were standardised using StandardScaler.
-                </p>
-
-              </div>
-
-              <!-- Model Evaluation -->
-
-              <div class="project-subitem">
-
-                <h5>Model Evaluation</h5>
-
-                <p>
-                  The dataset was divided into training and testing sets using
-                  an 80/20 split. Model predictions were evaluated using a
-                  confusion matrix, which provided a visual representation of
-                  the model's classification results.
-                </p>
-
-              </div>
-
-              <!-- Learning Outcome -->
-
-              <div class="project-subitem">
-
-                <h5>What I Learned</h5>
-
-                <p>
-                  This project strengthened my understanding of data cleaning,
-                  feature preparation, categorical encoding, feature scaling,
-                  classification and evaluating machine learning models using
-                  real-world data.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <!-- Microcontroller and IoT -->
-
-        <div class="project-category">
-
-          <h3>Microcontroller and IoT</h3>
-
-          <!-- Four-Way Traffic Light System -->
-
-          <div class="project-item">
-
-            <div class="project-summary">
-
-              <h4>Four-Way Traffic Light System</h4>
-
-              <p>
-                A four-way traffic light system developed with Arduino and C++
-                to simulate the coordination of traffic at an intersection.
-                The system independently controls traffic lights for the north,
-                south, east and west directions, while a 16x2 I2C LCD provides
-                a real-time display of the current traffic state. The project
-                demonstrates how microcontroller programming can be used to
-                automate and coordinate a real-world system.
-              </p>
-
-              <p class="project-technologies">
-                Arduino | C++ | LEDs | 16x2 I2C LCD | I2C | Digital Output |
-                Microcontroller Programming
-              </p>
-
-              <!-- Project Links -->
-
-              <div class="project-links">
-
-                <a
-                  href="[insert GitHub link]"
-                  target="_blank"
-                  class="project-link"
-                >
-                  View GitHub Repository
-                </a>
-
-                <a
-                  href="[insert Tinkercad link]"
-                  target="_blank"
-                  class="project-link"
-                >
-                  View Tinkercad Simulation
-                </a>
-
-              </div>
-
-            </div>
-
-            <div class="project-details">
-
-              <h4>Project Overview</h4>
-
-              <!-- Four-Way Traffic Control -->
-
-              <div class="project-subitem">
-
-                <h5>Four-Way Traffic Control</h5>
-
-                <p>
-                  The system controls traffic lights for four directions:
-                  north, south, east and west. North and south traffic are
-                  allowed to move together while east and west traffic remain
-                  stopped. The system then switches the traffic flow so that
-                  east and west can proceed.
-                </p>
-
-              </div>
-
-              <!-- Caution Phase -->
-
-              <div class="project-subitem">
-
-                <h5>Caution Phase</h5>
-
-                <p>
-                  A caution phase is included between the main traffic cycles.
-                  This provides a transition period before the traffic
-                  direction changes.
-                </p>
-
-              </div>
-
-              <!-- LCD Display -->
-
-              <div class="project-subitem">
-
-                <h5>LCD Status Display</h5>
-
-                <p>
-                  A 16x2 I2C LCD is used to display the current traffic state.
-                  The display indicates which directions have permission to go,
-                  which directions are stopped and when traffic is in the
-                  caution phase.
-                </p>
-
-              </div>
-
-              <!-- Microcontroller Programming -->
-
-              <div class="project-subitem">
-
-                <h5>Microcontroller Programming</h5>
-
-                <p>
-                  The project uses C++ programming to control the LEDs and LCD.
-                  Digital output pins are configured for the traffic lights,
-                  while timing functions are used to control the duration of
-                  each traffic phase.
-                </p>
-
-              </div>
-
-              <!-- Learning Outcome -->
-
-              <div class="project-subitem">
-
-                <h5>What I Learned</h5>
-
-                <p>
-                  This project helped me develop practical experience with
-                  microcontroller programming, digital outputs, LED control,
-                  LCD displays and coordinating multiple components within an
-                  automated system. It also helped me understand how programming
-                  logic can be used to model a real-world traffic control
-                  system.
-                </p>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-
-    <section class="contact-section" id="contact">
-
-      <div class="contact-content">
-
-        <h2 class="contact-title">Contact Me</h2>
-
-        <p class="contact-introduction">
-          Feel free to connect with me through any of the platforms below.
-        </p>
-
-        <div class="contact-details">
-
-          <!-- Email -->
-
-          <div class="contact-item">
-
-            <i class="fa-solid fa-envelope"></i>
-
-            <h3>Email</h3>
-
-            <a href="mailto:[insert email]">
-              [insert email]
-            </a>
-
-          </div>
-
-          <!-- Phone -->
-
-          <div class="contact-item">
-
-            <i class="fa-solid fa-phone"></i>
-
-            <h3>Phone</h3>
-
-            <p>[insert phone number]</p>
-
-          </div>
-
-          <!-- Location -->
-
-          <div class="contact-item">
-
-            <i class="fa-solid fa-location-dot"></i>
-
-            <h3>Location</h3>
-
-            <p>[insert location]</p>
-
-          </div>
-
-        </div>
-
-        <!-- Social Links -->
-
-        <div class="social-links">
-
-          <a
-            href="[insert LinkedIn link]"
-            target="_blank"
-            aria-label="LinkedIn"
-          >
-            <i class="fa-brands fa-linkedin-in"></i>
+        <div class="social-icons">
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
           </a>
 
-          <a
-            href="[insert GitHub link]"
-            target="_blank"
-            aria-label="GitHub"
-          >
+          <a href="#" target="_blank">
             <i class="fa-brands fa-github"></i>
           </a>
 
-          <a
-            href="[insert Instagram link]"
-            target="_blank"
-            aria-label="Instagram"
-          >
+          <a href="#" target="_blank">
             <i class="fa-brands fa-instagram"></i>
           </a>
-
         </div>
 
-        <!-- Copyright -->
-
-        <p class="copyright">
-          © 2026 Ashley Van Der Merwe. All rights reserved.
-        </p>
-
+        <a href="#contact" class="btn">Contact Me</a>
       </div>
-
     </section>
 
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="education">
+      <h2 class="heading">Education</h2>
+
+      <div class="education-container">
+        <div class="education-image">
+          <img src="pic4.jpeg" alt="Education" />
+        </div>
+
+        <div class="education-content">
+          <p>
+            I completed my National Senior Certificate (NSC) in 2022 at Eastwood
+            Secondary School, where I studied subjects including Mathematics and
+            Physical Sciences.
+          </p>
+
+          <p>
+            I am currently pursuing a Bachelor of Information and Communications
+            Technology (BICT), specialising in Internet of Things (IoT).
+          </p>
+
+          <p>
+            My studies have allowed me to develop skills in programming,
+            databases, web development, IoT, electronics, data analysis,
+            artificial intelligence and cloud computing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="skills">
+      <h2 class="heading">Skills</h2>
+
+      <div class="skills-container">
+        <div class="skills-image">
+          <img src="pic3.jpeg" alt="Skills" />
+        </div>
+
+        <div class="skills-content">
+          <div class="skill-box">
+            <h3>Programming</h3>
+
+            <p>Python, C++, C#, JavaScript, HTML, CSS and Kotlin.</p>
+          </div>
+
+          <div class="skill-box">
+            <h3>IoT and Electronics</h3>
+
+            <p>
+              Arduino, ESP32, sensors, microcontrollers, embedded systems and
+              electronic circuits.
+            </p>
+          </div>
+
+          <div class="skill-box">
+            <h3>Data and Analysis</h3>
+
+            <p>
+              Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn,
+              PostgreSQL and SQL.
+            </p>
+          </div>
+
+          <div class="skill-box">
+            <h3>Soft Skills</h3>
+
+            <p>
+              Problem solving, teamwork, communication, adaptability and
+              continuous learning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CERTIFICATES ================= -->
+
+    <section id="certificates" class="certificates">
+      <h2 class="heading">Certificates</h2>
+
+      <div class="certificates-container">
+        <div class="certificate-card">
+          <img
+            src="ai_fundamentals.jpeg"
+            alt="IBM AI Fundamentals Certificate"
+          />
+
+          <h3>IBM AI Fundamentals</h3>
+
+          <p>Completed: June 25, 2027</p>
+
+          <a href="#ai-certificate-details" class="btn"> View Certificate </a>
+        </div>
+
+        <div class="certificate-card">
+          <img
+            src="python_essentials1.jpeg"
+            alt="Python Essentials Certificate"
+          />
+
+          <h3>Python Essentials 1</h3>
+
+          <p>Completed: July 27, 2026</p>
+
+          <a href="#python-certificate-details" class="btn">
+            View Certificate
+          </a>
+        </div>
+
+        <div class="certificate-card">
+          <img
+            src="cloud_computing.jpeg"
+            alt="IBM Cloud Computing Certificate"
+          />
+
+          <h3>IBM Cloud Computing Fundamentals</h3>
+
+          <p>Completed: August 10, 2026</p>
+
+          <a href="#cloud-certificate-details" class="btn">
+            View Certificate
+          </a>
+        </div>
+      </div>
+
+      <div class="certificate-details" id="ai-certificate-details">
+        <h3>IBM AI Fundamentals</h3>
+
+        <p>
+          This certificate demonstrates my understanding of artificial
+          intelligence fundamentals and key AI concepts.
+        </p>
+        <br />
+        <p>
+          This course gave me the opportunity to explore artificial intelligence
+          in greater depth. Although I had already been introduced to AI through
+          my coursework, the course exposed me to concepts and ideas that were
+          new to me. One of the highlights was the simulation activity, which
+          made the learning experience more interactive rather than being based
+          entirely on theory. I was also introduced to IBM's work on AI systems
+          such as Project Debater. Learning about the development of a system
+          designed to debate and reason was fascinating to me. The development
+          of Project Debater also reminded me that meaningful progress takes
+          time. Its journey included setbacks and losses, which reinforced the
+          importance of perseverance and continuing to improve.
+        </p>
+
+        <a href="ai_fundamentals.pdf" target="_blank" class="btn"> View PDF </a>
+      </div>
+
+      <div class="certificate-details" id="python-certificate-details">
+        <h3>Python Essentials 1</h3>
+
+        <p>
+          This certificate demonstrates my foundational knowledge of Python
+          programming, including variables, data types, conditional statements,
+          loops and basic programming concepts.
+        </p>
+        <br />
+        <p>
+          My experience with Python Essentials 1 was great. I had already
+          learned Python through one of my university modules and through
+          additional videos that helped me build my understanding of the
+          language.The course introduced me to aspects of Python that went
+          beyond simply writing code. I found it interesting to learn about the
+          history of Python, including how the language got its name. The later
+          stages became more challenging, but I was able to work through them
+          and strengthen my understanding of Python.
+        </p>
+
+        <a href="python_essentials.pdf" target="_blank" class="btn">
+          View PDF
+        </a>
+      </div>
+
+      <div class="certificate-details" id="cloud-certificate-details">
+        <h3>IBM Cloud Computing Fundamentals</h3>
+
+        <p>
+          This certificate demonstrates my understanding of cloud computing
+          concepts, services and technologies.
+        </p>
+        <br />
+
+        <p>
+          This course was very insightful because it allowed me to explore cloud
+          computing beyond what I had learned in my university module. I learned
+          about containers, the leading cloud providers and how organisations
+          can migrate from private infrastructure to the cloud. I also learned
+          that different cloud providers offer different services and solutions,
+          and explored how IBM differentiates itself through its hybrid cloud
+          approach.
+        </p>
+
+        <a href="cloud_computing.pdf" target="_blank" class="btn"> View PDF </a>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="projects">
+      <h2 class="heading">Projects</h2>
+
+      <!-- PROGRAMMING -->
+
+      <div class="project-topic">
+        <h3 class="topic-heading">Programming</h3>
+
+        <div class="project-selection">
+          <a href="#fnb-project" class="project-box">
+            <span> FNB App Academy – Python Projects </span>
+
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+
+          <a href="#python-quiz-project" class="project-box">
+            <span> Python Quiz – Fun IT Quiz </span>
+
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+
+        <div class="project-item" id="fnb-project">
+          <h3>FNB App Academy – Python Projects</h3>
+
+          <p>
+            A collection of practical Python projects completed during the FNB
+            App Academy programme. These projects helped me develop my
+            understanding of programming, problem solving and data processing.
+          </p>
+
+          <h4>Technologies Used</h4>
+
+          <p>
+            Python | Functions | Lists | Dictionaries | Loops | Conditional
+            Statements | Data Processing
+          </p>
+
+          <h4>Projects Included</h4>
+
+          <ul>
+            <li>Contact Book</li>
+            <li>Student Grade Report</li>
+            <li>Going Beyond the Requirements</li>
+          </ul>
+
+          <a
+            href="https://github.com/Ashley176-lab/FNB-coding-programme"
+            target="_blank"
+            class="btn"
+          >
+            View GitHub Repository
+          </a>
+        </div>
+
+        <div class="project-item" id="python-quiz-project">
+          <h3>Python Quiz – Fun IT Quiz</h3>
+
+          <p>
+            An interactive command-line quiz application developed using Python.
+            The application contains questions about Python, IT and networking
+            while keeping track of the user's score.
+          </p>
+
+          <h4>Technologies Used</h4>
+
+          <p>
+            Python | Functions | User Input | Conditional Statements | String
+            Methods | Score Tracking
+          </p>
+
+          <h4>Features</h4>
+
+          <ul>
+            <li>Python Quiz</li>
+            <li>IT Quiz</li>
+            <li>Networking Quiz</li>
+            <li>Interactive Quiz Flow</li>
+          </ul>
+
+          <a
+            href="https://github.com/Ashley176-lab/Python-Quiz/tree/main"
+            target="_blank"
+            class="btn"
+          >
+            View GitHub Repository
+          </a>
+        </div>
+      </div>
+
+      <!-- DATA ANALYSIS AND MACHINE LEARNING -->
+
+      <div class="project-topic">
+        <h3 class="topic-heading">Data Analysis and Machine Learning</h3>
+
+        <div class="project-selection">
+          <a href="#appliances-project" class="project-box">
+            <span> Appliances Energy Prediction </span>
+
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+
+          <a href="#titanic-project" class="project-box">
+            <span> Titanic Survival Prediction </span>
+
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+
+        <div class="project-item" id="appliances-project">
+          <h3>Appliances Energy Prediction</h3>
+
+          <p>
+            A data analysis and machine learning project using the Appliances
+            Energy Prediction dataset. The project involved analysing the data
+            and building regression models to predict appliance energy
+            consumption.
+          </p>
+
+          <h4>Technologies Used</h4>
+
+          <p>
+            Python | Pandas | NumPy | Matplotlib | Seaborn | Scikit-learn | Data
+            Analysis | Machine Learning
+          </p>
+
+          <h4>Machine Learning Models</h4>
+
+          <ul>
+            <li>Linear Regression</li>
+            <li>Decision Tree Regression</li>
+            <li>Random Forest Regression</li>
+          </ul>
+
+          <h4>Final Model</h4>
+
+          <p>The Random Forest Regression model achieved:</p>
+
+          <ul>
+            <li>R²: 0.6072</li>
+            <li>RMSE: 4.9613</li>
+            <li>MAE: 2.8571</li>
+          </ul>
+
+          <h4>What I Learned</h4>
+
+          <p>
+            Through this project I gained practical experience in data
+            preprocessing, exploratory data analysis, visualisation, model
+            training and evaluating machine learning models.
+          </p>
+
+          <a
+            href="https://github.com/Ashley176-lab/Appliance-and-Light-Consumption"
+            target="_blank"
+            class="btn"
+          >
+            View GitHub Repository
+          </a>
+        </div>
+
+        <div class="project-item" id="titanic-project">
+          <h3>Titanic Survival Prediction</h3>
+
+          <p>
+            A machine learning project using the Titanic dataset to predict
+            whether a passenger survived based on selected passenger
+            characteristics.
+          </p>
+
+          <h4>Data Preprocessing</h4>
+
+          <p>
+            The original dataset contained 891 rows and 12 columns. PassengerId,
+            Name, Ticket and Cabin were removed. Missing values were also
+            removed, resulting in 712 rows and 8 columns.
+          </p>
+
+          <h4>Features Used</h4>
+
+          <ul>
+            <li>Sex</li>
+            <li>Age</li>
+            <li>SibSp</li>
+            <li>Parch</li>
+            <li>Fare</li>
+            <li>Embarked</li>
+          </ul>
+
+          <h4>Machine Learning Model</h4>
+
+          <p>
+            Logistic Regression was used to predict the Survived target
+            variable.
+          </p>
+
+          <h4>Model Preparation</h4>
+
+          <p>
+            OneHotEncoder was used for categorical variables, while
+            StandardScaler was used for Age and Fare. The dataset was split into
+            training and testing data using a test size of 0.2.
+          </p>
+
+          <h4>Model Evaluation</h4>
+
+          <p>
+            A confusion matrix heatmap was used to evaluate the model's
+            predictions.
+          </p>
+
+          <h4>What I Learned</h4>
+
+          <p>
+            This project helped me understand data preprocessing, feature
+            selection, categorical encoding, feature scaling, logistic
+            regression and model evaluation.
+          </p>
+
+          <a
+            href="https://github.com/Ashley176-lab/Titanic-Data-Analysis"
+            target="_blank"
+            class="btn"
+          >
+            View GitHub Repository
+          </a>
+        </div>
+      </div>
+
+      <!-- MICROCONTROLLER AND IOT -->
+
+      <div class="project-topic">
+        <h3 class="topic-heading">Microcontroller and IoT</h3>
+
+        <div class="project-selection">
+          <a href="#traffic-light-project" class="project-box">
+            <span> Traffic Light Control System </span>
+
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+
+        <div class="project-item" id="traffic-light-project">
+          <h3>Traffic Light Control System</h3>
+
+          <p>
+            An Arduino-based four-way traffic light intersection simulator. The
+            system controls traffic lights for North, South, East and West
+            directions while displaying the current traffic state on a 16x2 I2C
+            LCD.
+          </p>
+
+          <h4>Technologies Used</h4>
+
+          <p>
+            Arduino | C++ | Microcontroller | LCD | Digital Outputs | Traffic
+            Light Control | Embedded Systems
+          </p>
+
+          <h4>Features</h4>
+
+          <ul>
+            <li>Four-Way Traffic Control</li>
+            <li>Traffic States</li>
+            <li>LCD Display</li>
+            <li>Microcontroller Programming</li>
+          </ul>
+
+          <h4>What I Learned</h4>
+
+          <p>
+            This project helped me understand microcontroller programming,
+            digital outputs, traffic light sequencing, LCD communication and
+            embedded systems.
+          </p>
+
+          <div class="project-buttons">
+            <a
+              href="https://github.com/Ashley176-lab/Arduino-Traffic-Light-System"
+              target="_blank"
+              class="btn"
+            >
+              View GitHub Repository
+            </a>
+
+            <a
+              href="https://www.tinkercad.com/things/3VnDVHVUWge-traffic-light-intersection-simulator/editel"
+              target="_blank"
+              class="btn"
+            >
+              View Tinkercad Simulation
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-box">
+            <i class="fa-solid fa-envelope"></i>
+
+            <div>
+              <h3>Email</h3>
+              <p>Your Email</p>
+            </div>
+          </div>
+
+          <div class="contact-box">
+            <i class="fa-solid fa-phone"></i>
+
+            <div>
+              <h3>Phone</h3>
+              <p>Your Phone Number</p>
+            </div>
+          </div>
+
+          <div class="contact-box">
+            <i class="fa-solid fa-location-dot"></i>
+
+            <div>
+              <h3>Location</h3>
+              <p>South Africa</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-socials">
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="#" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <p>© 2026 Ashley. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
-
