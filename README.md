@@ -30,6 +30,7 @@ Some of the projects featured on the portfolio include:
 
 * **Appliances Energy Prediction** — Machine learning project analyzing and predicting household energy consumption.
 * **Traffic Light Simulation** — C++ simulation developed using Tinkercad.
+* And many more.
 
 ## Certifications
 
